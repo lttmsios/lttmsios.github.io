@@ -1,0 +1,105 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MsiOS</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/pocostrap.css">
+</head>
+<body class="bg-dark text-white">
+  <nav class="navbar navbar-expand-md bg-blue navbar-dark fixed-bottom" style="background-color: #e3f2fd4d; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);">
+    <div class="mx-auto">
+        <div class="row mx-auto fs-1 nav-cust">
+          <a class="col nav-link" aria-current="page" href="/">
+              <i class="bi bi-house"></i>
+          </a>
+
+          <a class="col nav-link active" href="/downloads">
+              <i class="bi bi-download"></i>
+          </a>
+
+          <a class="col nav-link" href="/about">
+              <i class="bi bi-info-square"></i>
+          </a>
+
+          <a class="col nav-link" href="https://www.tiktok.com/@beastrexx">
+              <i class="bi bi-tiktok"></i>
+          </a>
+
+          <a class="col nav-link" href="https://www.youtube.com/none">
+              <i class="bi bi-youtube"></i>
+          </a>
+
+          <a class="col nav-link" href="https://github.com/projectrift">
+              <i class="bi bi-github"></i>
+          </a>
+        </div>
+    </div>
+  </nav>
+  <div>
+    <div class="section bg-only-sizing">
+    <div class="container my-auto">
+        <br>
+        <a href=".." class="back-button animate-fade"><i class="bi bi-arrow-left"></i> BACK</a>
+        <h1 class="fw-bold my-auto fs-your-mom animate-fade"><i class="bi bi-grid"></i>MSIOS</h1>
+    </div>
+    </div><br><br>
+    <div class="container">
+      <h4>Please note this OS is under development and download is not ready</h4>
+        <br>
+        <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-5 dl-menu-row">
+          <div class="col animate-fade">
+            <div class="card">
+                <img class="card-img-top" src="/img/msios.webp" alt="Logo">
+                <div class="card-img-overlay dl-menu-overlay">
+                  <h4 class="card-title">MsiOS 1.0
+                    <a href="http://msios.gotdns.ch/dl/unreleased/msios.iso" class="dl-btn"><i class="bi bi-cloud-download fs-4"></i></a>
+                  </h4>
+                  <p class="card-text">
+                    </p><ul>
+                      <li>Beta</li>
+                      <li>Development</li>
+                    </ul>
+                  <p></p>
+                </div>
+            </div>
+        </div>
+            
+            
+            
+            
+            
+          
+          
+          
+          
+          
+    </div>
+    <br><br><br><br>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script defer="">
+      const items = document.getElementsByClassName("animate-fade");
+      
+      setTimeout(showItem, 0, items[0], 1);
+
+      function showItem(item, nextItemId) {
+          const nextitem = items[nextItemId];
+          if (item != undefined) {
+              item.classList.remove("hidden");
+              setTimeout(showItem, 100, nextitem, nextItemId + 1);
+          }
+      }
+  </script>
+
+</div></body></html>
+
+
+<meta content="MsiOS Download" property="og:title">
+
+<meta content="Download page for MsiOS">
+
+<meta content="MsiOS" property="og:site_name">
+<meta content="#c61313" data-react-helmet="true" name="theme-color" />
+<meta content='https://cdn.discordapp.com/app-assets/992896989819850762/1076491220630634596.png' property='og:image'>

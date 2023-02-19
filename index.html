@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <meta name="description" content="This is a website where you can download old iso's and modern of windows and even download OS itself. The MsiOS">
+  <meta name="keywords" content="MsiOS, Windows, Download">
+  <meta name="author" content="Beast">
+  <meta property="og:title" content="MsiOs">
+  <meta property="og:type" content="MsiOS">
+  <meta property="og:url" content="https://msios.gotdns.ch/">
+  <meta property="og:image" content="https://cdn.discordapp.com/app-assets/992896989819850762/1076491220630634596.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MsiOS</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="pocostrap.css">
+  </head>
+  <body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-md bg-blue navbar-dark fixed-bottom" style="background-color: #e3f2fd4d; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);">
+      <div class="mx-auto">
+          <div class="row mx-auto fs-1 nav-cust">
+            <a class="col nav-link active" aria-current="page" href="index.html">
+                <i class="bi bi-house"></i>
+            </a>
+
+            <a class="col nav-link" href="downloads">
+                <i class="bi bi-download"></i>
+            </a>
+
+            <a class="col nav-link" href="about">
+                <i class="bi bi-info-square"></i>
+            </a>
+
+            <a class="col nav-link" href="https://www.tiktok.com/@beastrexx">
+                <i class="bi bi-tiktok"></i>
+            </a>
+
+            <a class="col nav-link" href="https://www.youtube.com/none">
+                <i class="bi bi-youtube"></i>
+            </a>
+
+            <a class="col nav-link" href="https://github.com/projectrift">
+                <i class="bi bi-github"></i>
+            </a>
+          </div>
+      </div>
+    </nav>
+    <div class="section vh-100 bg-only-sizing" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(walls/home.jpg);">
+        <div class="container my-auto">
+            <br>
+            <h1 class="fw-bold my-auto fs-your-mom animate-fade hidden"><i class="bi bi-house"></i> HOME</h1>
+            <p class="fs-4 fw-light my-auto animate-fade hidden">
+                Welcome to my website! On my website, it's about me ... duh<br>
+                Here you can download some iso, follow me on TikTok and learn more about me!<br><br>
+                Use the navbar at the bottom and have fun :)
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script defer>
+        const items = document.getElementsByClassName("animate-fade");
+        
+        setTimeout(showItem, 0, items[0], 1);
+
+        function showItem(item, nextItemId) {
+            const nextitem = items[nextItemId];
+            if (item != undefined) {
+                item.classList.remove("hidden");
+                setTimeout(showItem, 200, nextitem, nextItemId + 1);
+            }
+        }
+    </script>
+  </body>
+</html>
+
+<meta content="MsiOS" property="og:title">
+
+<meta content="This is a website where you can download old iso's of windows and even download os itself The MsiOS!" property="og:description">
+
+<meta content="MsiOS" property="og:site_name">
+<meta content="#c61313" data-react-helmet="true" name="theme-color" />
+<meta content='https://cdn.discordapp.com/app-assets/992896989819850762/1076491220630634596.png' property='og:image'>
